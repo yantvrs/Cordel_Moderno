@@ -14,8 +14,10 @@
    font-family: Arial, Helvetica, sans-serif;
    margin: 0px;
    text-decoration: none;
-   font-size: 1em;
    padding: 0px;
+   width: 100%;
+   width: auto;
+   font-size: 3.5vw;
 }
 
 body{
@@ -30,13 +32,12 @@ header{
     color: white;
     text-align: center;
     padding: 50px;
-  
+    font-size: 3vw;
 }
 
 header>p{
     color: white;
     font-style: normal;
-    font-size: 30px;
 }
 
 header>p>a{
@@ -46,16 +47,13 @@ header>p>a{
 
 h1{
     font-family: 'Poiret One', cursive,Arial, Helvetica, sans-serif;
-    font-size: 80px;
     text-shadow: 0px 0px 20px #ffffffb8;
-    font-size: vw;
-    width: 100%;
+    font-size: 5vw;
 }
 
 p{
     color: black;
     font-family: 'PT Sans', sans-serif;
-    font-size: 5vw;
 }
 
 div{
@@ -63,9 +61,6 @@ div{
     padding-left: 50px;
     padding-bottom: 110px;
     padding-right: 50px;
-    max-width: 100%;
-    min-width: 360px;
-    width: 100%;
 }
 
 p.container_image{
@@ -82,11 +77,9 @@ div#container001{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    max-width: 100%;
     box-shadow: inset 0px 3px 20px 0px #000000a1;
     box-shadow: inset 3px 0px 20px 0px #000000;
-    max-width: 100%;
-    min-width: 360px;
+    width: auto;
 }
 
 div#container002{
@@ -98,18 +91,14 @@ div#container002{
     max-width: 100%;
     box-shadow: inset 0px 3px 20px 0px #000000a1;
     box-shadow: inset 3px 0px 20px 0px #000000;
-    max-width: 100%;
-    min-width: 360px;
 }
 
 footer{
     background-color: black;
     color: white;
-    font-size: 20px;
     margin: auto;
     text-align: center;
     padding: 15px;
-    font-size: 2vw;
 }
 
 footer>a{
@@ -124,5 +113,4 @@ a:hover{
 
 a{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
 }
